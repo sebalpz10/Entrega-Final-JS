@@ -1,0 +1,22 @@
+[
+    {
+        "id": 6,
+        "marca": "Mercedes Benz",
+        "modelo": "AMG 12V Manual",
+        "kilometraje": "0Km",
+        "anio": 2022,
+        "precio": 850,
+        "img": "img/juguetes/juguete-01.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "marca": "MClaren",
+        "modelo": "Senna Ride On",
+        "kilometraje": "0Km",
+        "anio": 2022,
+        "precio": 1000,
+        "img": "img/juguetes/juguete-02.jpg",
+        "cantidad": 1
+    }
+]

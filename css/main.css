@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem; }
+
+.colorBoton {
+  color: #ffffff;
+  background-color: #3525ac; }
+
+.colorBoton:hover {
+  background-color: #3525ac;
+  color: #ffffff; }
+
+.imgJuguete {
+  height: 200px;
+  width: 200px; }
