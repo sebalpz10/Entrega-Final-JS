@@ -1,3 +1,35 @@
+// Libreria: SweetAlert2
+(async () => {
+    const { value: pais } = await Swal.fire({
+        title: `Bienvenido!`,
+        text: `Selecciona tu pais`,
+        confirmButtonText: `Seleccionar`,
+        confirmButtonAriaLbel: `Confirmar`,
+
+        backdrop: true,
+
+        allowOutsideClick: false,
+        allowEscapeKey: false,
+        allowEnterKey: false,
+
+        input: `select`,
+        inputPlaceholder: `Pais`,
+        inputValue: ``,
+        inputOptions: {
+            argentina: `Argentina`,
+            mexico: `Mexico`,
+            chile: `Chile`,
+            brasil: `Brasil`
+        }
+    });
+
+    if (pais) {
+        Swal.fire({
+            title: `Seleccionaste ${pais}`
+        });
+    }
+})();
+
 // Creamos una clase con las caracteristicas de los objetos.
 
 class Auto {
